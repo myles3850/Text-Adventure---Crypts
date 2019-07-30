@@ -2,13 +2,13 @@ import os
 import Stats
 import Game
 import Check
-import Monsters.Snail
+import Monsters.Small.Snail
 
 #these classes are to simplify the call to the imported files sections
 class rn:
     fights = Stats.Game.fightswon
     check = Check.start
-    smail = Monsters.Snail
+    smail = Monsters.Small.Snail
 
 validanswer = False
 
