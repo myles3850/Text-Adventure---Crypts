@@ -9,6 +9,7 @@ class rn:
     fights = Stats.Game.fightswon
     check = Check.start
     smail = Monsters.Small.Snail
+    cash = Stats.Game.Money.gold
 
 validanswer = False
 

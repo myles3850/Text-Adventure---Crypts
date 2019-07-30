@@ -1,9 +1,9 @@
+#stats and killcount for the snail, internal killcounty will be usaed to multiply difficulty
 
-import Stats
-import Monsters.Zombie
+def stats():
+    Timeskilled = 0 
 
-Stats.Player.health
+    Basehealth = 3
 
-def slither():
-    print("im a snaiol")
-    input()
+    Health = Basehealth + Timeskilled
+
