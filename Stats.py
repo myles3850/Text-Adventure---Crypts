@@ -5,7 +5,7 @@ class Player:
     def health():
         print(Player.Health)
 
-    def armour(Health.Armour):
+    def armour():
         stat = Player.Armour / 100
         print(stat)
 
@@ -29,4 +29,3 @@ class Game:
         silver = 0
         copper = 0
 
-de

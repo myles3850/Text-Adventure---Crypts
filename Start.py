@@ -2,13 +2,12 @@ import os
 import Stats
 import Game
 import Check
-import Monsters.Small.Snail
+
 
 #these classes are to simplify the call to the imported files sections
 class rn:
     fights = Stats.Game.fightswon
     check = Check.start
-    smail = Monsters.Small.Snail
     cash = Stats.Game.Money.gold
 
 validanswer = False
@@ -24,7 +23,7 @@ while(validanswer != True):
     menu = input ("what will you do? \n")
     
     if menu == "start":
-        rn.smail.slither()
+        Game()
     elif menu == "exit":
         print("We shall meet again adventurer \nFarewell!")
         quit()
